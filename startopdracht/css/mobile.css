@@ -3,7 +3,8 @@
   /* * {
     display: none;
   } */
-  .two-columns {
+  .two-columns,
+  .three-columns {
     display: block;
   }
 
