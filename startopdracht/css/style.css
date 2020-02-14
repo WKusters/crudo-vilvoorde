@@ -18,6 +18,12 @@ header {
   margin-top: 1rem;
 }
 
+header nav a {
+  padding: 20px 40px;
+  margin-right: 1rem;
+  display: inline-block;
+}
+
 .container {
   width: 80vw;
   max-width: 1200px;
@@ -94,4 +100,22 @@ input[type="submit"]:hover {
   color: #fff;
   background: #f7c040;
   border-color: #f7c040;
+}
+
+.video {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe,
+.video object,
+.video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
