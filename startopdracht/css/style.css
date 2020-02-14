@@ -74,7 +74,7 @@ section {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -118,4 +118,41 @@ input[type="submit"]:hover {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.eetcafe {
+  background-color: #ffce4d;
+}
+
+.eetcafe .img-fluid {
+  width: 100%;
+}
+
+.banaan2 {
+  background-color: #6dccaa;
+}
+
+.gember {
+  background-color: #ebcd9b;
+}
+
+table {
+  width: 100%;
+  border: 1px solid red;
+}
+
+table td {
+  padding: 1rem;
+}
+
+table td:nth-child(2) {
+  text-align: right;
+}
+
+.text-align-center {
+  text-align: center;
 }
